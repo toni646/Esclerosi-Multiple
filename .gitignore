@@ -1,9 +1,9 @@
-# Data (no es puja mai a Git; es versiona amb DVC)
+# Data (never committed to Git; versioned with DVC)
 /data/**
 !/data/**/
 !/data/**/.gitkeep
 
-# Models entrenats i experiments
+# Trained models and experiment tracking
 /models/**
 !/models/.gitkeep
 mlruns/
