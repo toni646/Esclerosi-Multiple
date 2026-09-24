@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "ms_seg"
 version = "0.0.1"
-description = "Segmentacio de lesions d'Esclerosi Multiple en RM (TFM, dataset MSLesSeg)"
+description = "Multiple Sclerosis lesion segmentation in MRI (Master's thesis, MSLesSeg dataset)"
 authors = [
   { name = "Toni" },
 ]
