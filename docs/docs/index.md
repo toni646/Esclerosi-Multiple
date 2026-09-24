@@ -2,7 +2,7 @@
 
 ## Description
 
-Segmentacio de lesions d'Esclerosi Multiple en RM (TFM, dataset MSLesSeg)
+Multiple Sclerosis lesion segmentation in MRI (Master's thesis, MSLesSeg dataset)
 
 ## Commands
 
