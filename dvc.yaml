@@ -1,0 +1,11 @@
+# DVC pipeline: `dvc repro` re-runs only the stages whose inputs changed.
+stages:
+  eda:
+    cmd: python -m ms_seg.eda
+    deps:
+      - data/raw/MSLesSeg
+      - ms_seg/eda.py
+      - ms_seg/config.py
+    outs:
+      - data/interim/study_stats.csv
+      - data/interim/lesions.csv

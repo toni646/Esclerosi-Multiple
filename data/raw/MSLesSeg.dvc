@@ -1,0 +1,6 @@
+outs:
+- md5: 6eff59e7c7607a295730233906ce3c1a.dir
+  size: 1491011061
+  nfiles: 464
+  hash: md5
+  path: MSLesSeg

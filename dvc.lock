@@ -1,0 +1,27 @@
+schema: '2.0'
+stages:
+  eda:
+    cmd: python -m ms_seg.eda
+    deps:
+    - path: data/raw/MSLesSeg
+      hash: md5
+      md5: 6eff59e7c7607a295730233906ce3c1a.dir
+      size: 1491011061
+      nfiles: 464
+    - path: ms_seg/config.py
+      hash: md5
+      md5: db02e94f7ce11f4cce82e9f00dd62475
+      size: 851
+    - path: ms_seg/eda.py
+      hash: md5
+      md5: c3b7be00c4cde7cd62ea4487c939e7cc
+      size: 7766
+    outs:
+    - path: data/interim/lesions.csv
+      hash: md5
+      md5: fddff5d8cdd219f4fa913cee8eea778d
+      size: 70659
+    - path: data/interim/study_stats.csv
+      hash: md5
+      md5: eb7d9425764d6e5e907b9b12d8d3a7c2
+      size: 19804

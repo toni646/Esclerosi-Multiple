@@ -2,12 +2,15 @@
 /data/**
 !/data/**/
 !/data/**/.gitkeep
+# ...except the small DVC pointer files, which must be committed
+!/data/**/*.dvc
 
 # Trained models and experiment tracking
 /models/**
 !/models/.gitkeep
 mlruns/
 mlartifacts/
+mlflow.db
 wandb/
 
 # Mac OS-specific storage files
