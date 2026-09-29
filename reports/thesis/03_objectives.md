@@ -38,7 +38,7 @@ To keep the work focused, the following are outside the scope of this thesis:
 - A **measured improvement in small-lesion detection**, supported by paired statistical tests.
 - An analysis of performance **by lesion size and by scanner manufacturer**, which the reference study does not report.
 - A **reproducible, public pipeline**, including the patient-level cross-validation folds.
-- Findings from the exploratory analysis of the dataset: the identification of the **lesion counting rule used by the authors** (6-connectivity) and of **studies with data-quality issues** not reported in the original publication (Chapter 5).
+- Findings from the exploratory analysis of the dataset: the identification of the **lesion counting rule used by the authors** (6-connectivity) and of **studies with data-quality issues** not reported in the original publication (Chapter 4).
 
 ## 3.6 Evaluation principles
 
