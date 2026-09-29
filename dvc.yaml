@@ -9,3 +9,11 @@ stages:
     outs:
       - data/interim/study_stats.csv
       - data/interim/lesions.csv
+  folds:
+    cmd: python -m ms_seg.folds
+    deps:
+      - ms_seg/folds.py
+      - data/interim/study_stats.csv
+    outs:
+      - configs/folds.json:
+          cache: false

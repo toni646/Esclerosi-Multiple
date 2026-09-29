@@ -25,3 +25,19 @@ stages:
       hash: md5
       md5: eb7d9425764d6e5e907b9b12d8d3a7c2
       size: 19804
+  folds:
+    cmd: python -m ms_seg.folds
+    deps:
+    - path: data/interim/study_stats.csv
+      hash: md5
+      md5: eb7d9425764d6e5e907b9b12d8d3a7c2
+      size: 19804
+    - path: ms_seg/folds.py
+      hash: md5
+      md5: 808cd7b9a6336b0a43ead96955c67bf7
+      size: 4346
+    outs:
+    - path: configs/folds.json
+      hash: md5
+      md5: 5c36f112a697a42eabb4d9a2bc0f5640
+      size: 10261
