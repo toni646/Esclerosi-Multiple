@@ -17,3 +17,14 @@ stages:
     outs:
       - configs/folds.json:
           cache: false
+  nnunet_data:
+    cmd: python -m ms_seg.nnunet_data
+    deps:
+      - data/raw/MSLesSeg
+      - ms_seg/nnunet_data.py
+      - configs/folds.json
+    outs:
+      - data/processed/nnUNet_raw/Dataset101_MSLesSeg:
+          cache: false
+      - data/processed/nnUNet_preprocessed/Dataset101_MSLesSeg/splits_final.json:
+          cache: false
