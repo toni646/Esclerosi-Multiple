@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Master's thesis: **automatic segmentation of Multiple Sclerosis lesions in magnetic resonance images** (FLAIR, T1, T2).
+**Automatic segmentation of Multiple Sclerosis lesions in magnetic resonance images** (FLAIR, T1, T2).
 
 - **Dataset:** MSLesSeg (75 patients, 115 studies) — [figshare](https://doi.org/10.6084/m9.figshare.27919209)
 - **Reference paper:** Guarnera et al., *MSLesSeg: baseline and benchmarking of a new Multiple Sclerosis Lesion Segmentation dataset*, Scientific Data (2025) — [link](https://www.nature.com/articles/s41597-025-05250-y)

@@ -2,7 +2,7 @@
 
 ## Description
 
-Multiple Sclerosis lesion segmentation in MRI (Master's thesis, MSLesSeg dataset)
+Multiple Sclerosis lesion segmentation in MRI (MSLesSeg dataset)
 
 ## Commands
 
